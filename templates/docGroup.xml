@@ -1,0 +1,8 @@
+<templateSet group="docGroup">
+  <template name="***" value="/**&#10; * @author liao&#10; * @create $date$&#10; */" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="date" expression="date(&quot;yyyy/M/dd HH:mm&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
